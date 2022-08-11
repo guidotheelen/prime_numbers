@@ -1,8 +1,8 @@
 name: prime_numbers
 description: This package is to help anyone on their prime number adventures and
-provide tools to ease working with prime numbers.
+  provide tools to ease working with prime numbers.
 version: 0.0.1
-homepage:
+homepage: https://github.com/guidotheelen/prime_numbers
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
