@@ -1,7 +1,7 @@
 name: prime_numbers
 description: This package is to help anyone on their prime number adventures and
   provide tools to ease working with prime numbers.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/guidotheelen/prime_numbers
 
 environment:

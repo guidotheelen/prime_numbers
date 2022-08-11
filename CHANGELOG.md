@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Increase test coverage
+
+## 0.0.3
+
+* Add example app
