@@ -1,4 +1,4 @@
-# PrimeNumbers [![Build Status](https://app.travis-ci.com/guidotheelen/avatar_generator.svg?branch=master)](https://app.travis-ci.com/github/guidotheelen/avatar_generator) [![Coverage Status](https://coveralls.io/repos/github/guidotheelen/avatar_generator/badge.svg?branch=master)](https://coveralls.io/github/guidotheelen/avatar_generator?branch=master)
+# PrimeNumbers
 
 For all those number geeks out there. Prime numbers are still a hot topic within
 mathematics. This package is to help anyone on their prime number adventures and
@@ -11,6 +11,8 @@ provide tools to ease your work.
 * Find numbers between a min and max value
 * Find prime numbers with given prime-gap between min and max value
 * Find list of K-primes between min and max value
+* Find the prime factors of an int
+* Find the factor count of an int
 * Generate a list of n prime numbers from a given start position
 
 ## Usage

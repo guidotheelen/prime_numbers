@@ -85,6 +85,10 @@ void main() {
     test('returns factor when finding only one factor', () {
       expect((7).factors(returnFast: true), [7]);
     });
+
+    test('returns the amount of factors', () {
+      expect(12.factorCount(), 3);
+    });
   });
 
   group('Prime gaps', () {
