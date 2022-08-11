@@ -1,8 +1,8 @@
-# PrimeNumbers
+# PrimeNumbers [![Build Status](https://app.travis-ci.com/guidotheelen/avatar_generator.svg?branch=master)](https://app.travis-ci.com/github/guidotheelen/avatar_generator) [![Coverage Status](https://coveralls.io/repos/github/guidotheelen/avatar_generator/badge.svg?branch=master)](https://coveralls.io/github/guidotheelen/avatar_generator?branch=master)
 
 For all those number geeks out there. Prime numbers are still a hot topic within
 mathematics. This package is to help anyone on their prime number adventures and
-provide tools to ease working with prime numbers.
+provide tools to ease your work.
 
 ## Features
 
@@ -20,8 +20,8 @@ final pn = PrimeNumbers();
 
 pn.generate(10); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 
-10.isPrime; // false
 11.isPrime; // true
+10.isPrime; // false
 
 11.nextPrime(); // 13
 10.nextPrime(); // 11
