@@ -18,6 +18,32 @@ void main() {
     expect(10.isPrime, false);
   });
 
+  test('returns true if number is k-prime', () {
+    expect(1.isKPrime(2), false);
+    expect(2.isKPrime(2), false);
+    expect(3.isKPrime(2), false);
+    expect(4.isKPrime(2), true);
+    expect(5.isKPrime(2), false);
+    expect(6.isKPrime(2), true);
+    expect(7.isKPrime(2), false);
+    expect(8.isKPrime(2), false);
+    expect(9.isKPrime(2), true);
+    expect(10.isKPrime(2), true);
+  });
+
+  test('returns gap till next prime', () {
+    expect(1.primeGap(), 1);
+    expect(2.primeGap(), 1);
+    expect(3.primeGap(), 2);
+    expect(4.primeGap(), 1);
+    expect(5.primeGap(), 2);
+    expect(6.primeGap(), 1);
+    expect(7.primeGap(), 4);
+    expect(8.primeGap(), 3);
+    expect(9.primeGap(), 2);
+    expect(10.primeGap(), 1);
+  });
+
   test('returns the next prime number', () {
     expect(1.nextPrime(), 2);
     expect(2.nextPrime(), 3);

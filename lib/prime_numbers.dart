@@ -44,7 +44,7 @@ class PrimeNumbers {
   List<int> kPrimesBetween(int k, int min, int max) {
     final kPrimes = <int>[];
     for (int i = min; i <= max; i++) {
-      if (i.factors().length == k) {
+      if (i.isKPrime(k)) {
         kPrimes.add(i);
       }
     }
@@ -57,6 +57,18 @@ extension PrimeInt on int {
   bool get isPrime {
     if (factors(returnFast: true).length == 1) return true;
     return false;
+  }
+
+  /// Returns true if the number is k-prime.
+  /// A natural number is called k-prime if it has exactly k prime factors.
+  bool isKPrime(int k) {
+    if (factors().length == k) return true;
+    return false;
+  }
+
+  /// Gap till next prime.
+  int primeGap() {
+    return nextPrime() - this;
   }
 
   /// Returns the next prime number.
