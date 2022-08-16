@@ -1,8 +1,8 @@
 # PrimeNumbers
 
-For all those number geeks out there. Prime numbers are still a hot topic within
-mathematics. This package is to help anyone on their prime number adventures and
-provide tools to ease your work.
+For all those number geeks out there. Prime numbers are still one of the most
+mysterious topics in math. This package is to help anyone on their prime number
+adventures and provide tools to ease your work.
 
 ## Features
 
@@ -28,8 +28,8 @@ pn.generate(10); // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 11.nextPrime(); // 13
 10.nextPrime(); // 11
 
-11.perviousPrime(); // 7
-10.perviousPrime(); // 7
+11.previousPrime(); // 7
+10.previousPrime(); // 7
 ```
 
 ## Additional information
